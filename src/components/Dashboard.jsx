@@ -27,7 +27,7 @@ const Dashboard = () => {
 
                 {/* Body Div */}
                 <div className='flex flex-col gap-3 lg:gap-0 sm:flex-row lg:justify-between'>
-                    <div className='w-[95%] mx-auto lg:w-[50%] lg:mx-0  h-[500px] bg-[#f6faff] rounded-xl'>
+                    <div className='w-[95%] mx-auto lg:w-[50%] lg:mx-0  h-[500px] bg-[#f6faff] rounded-xl relative'>
 
                         <div className='flex justify-end absolute top-3 right-3'>
                             <SearchIcon />
